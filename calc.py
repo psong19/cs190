@@ -39,6 +39,13 @@ def div(a, b):
 def mod(a, b):
     return a % b
 
+# Exponent function
+# a -- base
+# b -- power
+def exp(a, b):
+
+    return a ** b  
+
 
 # -------------------------------------------------------- #
 
@@ -75,6 +82,8 @@ while (True):
             print "Quotient: ", div(a, b)
         elif (op == "%"):
             print "Remainder: ", mod(a, b)
+	elif (op == "**"):
+	    print "Exponent result: ", exp(a, b)
         else:
             print "Invalid operation..."
 
